@@ -1,4 +1,4 @@
-def my_each(array) # put argument(s) here
+def my_each(array)
   i = 0
   while i < array.size
     yield(array[i])
@@ -7,4 +7,3 @@ def my_each(array) # put argument(s) here
 array
 end
 
-my_each(collection) {|x| puts x}
